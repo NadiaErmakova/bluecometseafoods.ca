@@ -118,6 +118,25 @@
     <script src="scripts/bootstrap.min.js"></script>
     
     <!-- InstanceBeginEditable name="Bottom" -->
+<script>
+$(function(){
+	$("form").on("submit",function(){
+		var data={
+			name: $("#name").val(),
+			email: $("#email").val(),
+			message: $("#message").val(),
+		};
+		$.ajax({
+			url:"http://ermakovaca-hrd.appspot.com/bluecommet/contact.do",
+			method :"POST",
+			data:data,
+		}).always(function(){
+			document.location="index.html";
+		});
+		return false;
+	});
+});
+</script>
     <!-- InstanceEndEditable -->   
 </body>
 <!-- InstanceEnd --></html>
