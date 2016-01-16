@@ -20,13 +20,14 @@
 <body>
     <nav class="navbar navbar-default">
 	    <div class="container"> 
-        
             <div class="navbar-header">
-                      <a class="navbar-brand hidden-homepage" href="../index.html">  <img src="../images/blue_comet_seafoods_logo.png" width="250"> </a>
-                        	       
+                      <a class="navbar-brand hidden-homepage" href="../index.html">  <img src="../images/blue_comet_seafoods_logo.png" width="250"></a>
 			 </div> 
-
-            <div id="defaultNavbar1">
+        </div>
+        
+        <div id="defaultNavbar1">
+ 	    	<div class="container"> 
+            <div class="row">
               <ul class="nav navbar-nav">
                 <li><a href="../index.html">HOME</a></li>
                 <li><a href="../about_us.html">ABOUT US</a></li>
@@ -35,8 +36,8 @@
                 <li><a href="../locations.html">LOCATIONS</a></li>
                 <li><a href="../contact_us.html">CONTACT US</a></li>
               </ul>
+              </div>
             </div>
-
         </div>
     </nav>
     
