@@ -37,15 +37,7 @@
 
     	<div class="row main-content">
                 <!-- TemplateBeginEditable name="Page" -->
-                    <div class="col-xs-2">
-                        <div class="left-column"></div>
-                    </div>
-                    <div class="col-xs-7">
-                        <div class="main-column"></div>
-                    </div>		                  
-                    <div class="col-xs-3">
-                        <div class="right-column"></div>
-                    </div>
+                   
 				<!-- TemplateEndEditable -->    
     	</div>    
 
@@ -60,7 +52,7 @@
     </div>
 
 	<script src="../scripts/jquery-1.11.2.min.js"></script>
-    <script src="../scripts/bootstrap.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
     
     <!-- TemplateBeginEditable name="Bottom" -->
     <!-- TemplateEndEditable -->   
