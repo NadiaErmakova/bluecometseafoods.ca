@@ -23,6 +23,13 @@ body{
 	background-size:cover;
 }
 
+#twitter a{
+	float: right;
+	margin-right:10px;
+	padding-left:10px;
+	padding-top:75px;
+}
+
 .left-column{
 	padding:10px;	
 	1margin: 10px -5px;
