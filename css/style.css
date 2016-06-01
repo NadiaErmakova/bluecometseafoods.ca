@@ -30,6 +30,7 @@ body{
 	background-image:url(../images/deep_sea_bg.jpg);
 	background-attachment: fixed;
 	background-size:cover;
+	max-height:500px;
 }
 
 .left-column{
