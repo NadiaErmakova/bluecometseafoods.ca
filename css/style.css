@@ -2,55 +2,51 @@
 
 @media (min-width: 768px) {
   .container {
-    width: 970px;
-	
+    1width: 970px;
+	width: 1070px;	
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    1width: 970px;
+	width: 1070px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 970px;
+    1width: 970px;
+    width: 1070px;
    
   }
 }
-body{
-	background-image:url(../images/deep_sea_bg.jpg);
-	1background-attachment: fixed;
-	background-size:cover;
+.row {
+	padding: 0 15px;
+}
+.row .row-noheader{
+	margin: -15px -15px;
 }
 
-#twitter a{
-	float: right;
-	margin-right:10px;
-	padding-left:10px;
-	padding-top:75px;
+body{
+	background-image:url(../images/deep_sea_bg.jpg);
+	background-attachment: fixed;
+	background-size:cover;
 }
 
 .left-column{
 	padding:10px;	
-	1margin: 10px -5px;
 }
 
 .main-column {
+	margin-top:20px;
 	padding:10px;
-	1margin: 10px -5px;
-}
-.main-column.nopadding1{
-    padding:0;
 }
 
 .right-column {
-	1margin: 0 -5px 10px -5px;
 }
 
 .main-content{
 	background-color:#ffffff;
-	min-height:700px;
-	padding-top: 15px;
+	min-height:430px;
 	padding-bottom:30px;
 	margin-bottom:1em;
 }
@@ -59,12 +55,16 @@ body{
 	font-style1:italic;
 	text-indent: 10px;
 }
-
+h1{
+	color:#FFFFFF;
+	font-size:28px;
+	padding-left:20px;
+	
+}
 .main-content h1{
 	color:#004275;	
 	font-size:18px;
 	margin-top:5px;
-	margin-left1:10px;
 }
 .home_left_col h2{
 	color:#5f5e5e;	
@@ -78,7 +78,7 @@ body{
 	color:#5f5e5e;	
 }
 .row p a:hover{
-	color:red;	
+	color:#1e51b4;	
 	text-decoration:none;
 }
 .navbar-my{
@@ -87,37 +87,62 @@ body{
 	margin-right:-15px;
     border: 0;
 	font-size:14px;	
-    text-align: right;
-	background-color: transparent;
+	background-color: white;
+	position: relative;
+	border-radius: 0;
 }
-.navbar-my .navbar-brand{
-  float: none;
+.navbar-contact{
+    text-align: right;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+	background-color: #1f4c9b;
+	background-color1: rgba(31,76,155,0.70);
+}
+.navbar-contact a {
+	margin: 4px;
+	color:#F8F0F1  !important; ;
+}
+.navbar-my .navbar-logo{
+	text-align:left;
+	display: inline-block;
+	padding: 15px;
 }
 .navbar-my .navbar-nav {
+	right: 0;
+	bottom: 17px;
+	position:absolute;
+	padding-right: 15px;
+
 	display: inline-block;
-	width:100%;
 	vertical-align: top;
 }
-.navbar-my a{
-	color:#fff;
+.navbar-my .navbar-nav a{
+	font-family: "Comfortaa";
+	font-style1: normal;
+	font-weight1: 600;
+	font-size:17px;		
+	color:#004275;
+	border-bottom: solid 1px transparent;
 }
-.navbar-my a:hover,.navbar-my a:focus{
-	color:#ed1c24;
+.navbar-my .navbar-nav a:hover,.navbar-my .navbar-nav a:focus{
+	color: inherit !important;
 	background-color:transparent !important; 
-}
-.navbar-my ul{
-	background-color:#004275;
+	1text-decoration:underline !important; 
+	border-bottom: solid 1px #ed1c24;
 }
 .navbar-my .navbar-nav>li>a {
-	border-right: 1px solid #fff;
-	/*space between menu item*/
-	padding:0 23px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	padding:0;
+	margin:10px 5px;
 	letter-spacing:1px;	
 }
-.navbar-my .navbar-nav>li:last-child>a {
-	border-right:0;
+
+.site-header{
+	background-color: #1f4c9b;
+	background-color: rgba(31,76,155,0.60);
+	
+	padding: 15px;
+	color: white;	
 }
 
 h2{
@@ -150,7 +175,10 @@ h2{
     padding-right: 10px;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color1: rgba(0, 0, 0, 0.3);
+}
+.carousel-inner .item img{
+	width1: 800px;
 }
 #carousel-home-news .item h2, #carousel-home-news .item a {
     color: white;
@@ -202,13 +230,28 @@ h2{
 	color:#004275;		
 }
 
+h3{
+	margin-top:10px;	
+}
+h3, h3 a{
+	font-family: "Comfortaa";
+	text-transform:uppercase;
+	font-size:17px;		
+	color:#004275;
+
+}
+.footer {
+	color:#EDEBEB;
+	margin-bottom:10px;
+	float:right;	
+}
 .img_left_gallery{
     padding: 5px; /* Ширина паспарту */
     background: #f0f0f0; /* Цвет фона  паспарту */
     border: 1px solid #999; /* Параметры рамки */
 	text-align:center;	
 	float:left;
-	margin:3px 10px 0 0;		
+	margin:10px 15px 5px 5px;		
 }
 
 .img_right_gallery{
@@ -217,7 +260,10 @@ h2{
     border: 1px solid #999; /* Параметры рамки */
 	text-align:center;	
 	float:right;
-	margin:3px 10px 0 0;		
+	margin:10px 15px 5px 5px;		
+}
+.home_sub{
+	text-align:center;	
 }
 
 .clear{

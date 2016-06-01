@@ -9,7 +9,7 @@
 <meta name="author" content="Nadia Ermakova | Web Development and Design"/>
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/style.css" rel="stylesheet">
-
+<link rel='stylesheet' id='et-gf-comfortaa-css'  href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,600&#038;subset=latin' type='text/css' media='all' />
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Blue Comet Seafoods</title>
 <!-- TemplateEndEditable -->
@@ -19,34 +19,36 @@
 
 <body>
 
-
 	<div class="container"> 
-
+    
+        <div class="row navbar-contact">    
+           <a href="https://www.instagram.com/bluecometseafoods/" title="instagram" target="_blank"><img src="images/insta.png" height="25"></a>
+           <a href="https://twitter.com/BlueCometSea/" title="twitter" target="_blank"><img src="images/twitter.png" height="25"></a>
+           <a href="../contact_us.html" title="contact us"><img src="images/contact.png" height="25"></a>
+        </div>
 
 
         <nav class="navbar navbar-my">
-        
-            <div id="twitter">
-               <a href="https://www.instagram.com/bluecometseafoods/" title="instagram" target="_blank"><img src="images/insta.png" height="55"></a>                       
-               <a href="https://twitter.com/BlueCometSea/" title="twitter" target="_blank"><img src="images/twitter.png" height="55"></a>
- 
-            </div>        
-        
-            <div class="navbar-header">
-                <a class="navbar-brand hidden-homepage" href="../index.html"><img src="../images/blue_comet_seafoods_logo.png" width="250"></a>
-            </div> 
+            <div class="navbar-logo">
+                <a href="../index.html"><img src="../images/blue_comet_seafoods_logo.png" height="104"></a>
+            </div>           
          	 <ul class="nav navbar-nav">
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="../about_us.html">ABOUT US</a></li>
+                <li><a href="../about_us.html">ABOUT</a></li>
                 <li><a href="../products.html">PRODUCTS</a></li>
                 <li><a href="../csf.html">CSF</a></li>                
-                <li><a href="../gallery.html">GALLERY</a></li>
+<!--                <li><a href="../gallery.html">GALLERY</a></li>-->
                 <li><a href="../locations.html">LOCATIONS</a></li>
                 <li><a href="../partners.html">PARTNERS</a></li>                
-                <li><a href="../contact_us.html">CONTACT US</a></li>
-              </ul>
+                <li><a href="../contact_us.html">CONTACT</a></li>
+              </ul>             
         </nav>
         
+        <div class="row site-header">
+        	<!-- TemplateBeginEditable name="PageHeader" -->
+                   
+			<!-- TemplateEndEditable -->    
+        </div>
 
             
     	<div class="row main-content">
@@ -56,13 +58,8 @@
     	</div>    
 
         <div class="row footer">
-            <div class="text-center col-md-6 col-md-offset-3">
-              <p>&copy; 2016 Blue Comet Seafoods<br/>
-<!--                 Developed by <a href="http://www.ermakova.ca/" target="_blank">ermakova.ca</a>-->
-               </p>
-            </div>
+			   © 2016 Blue Comet Seafoods              
         </div>
-
     </div>
 
 	<script src="../scripts/jquery-1.11.2.min.js"></script>

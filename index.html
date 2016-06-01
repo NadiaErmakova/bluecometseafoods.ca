@@ -9,7 +9,7 @@
 <meta name="author" content="Nadia Ermakova | Web Development and Design"/>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-
+<link rel='stylesheet' id='et-gf-comfortaa-css'  href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,600&#038;subset=latin' type='text/css' media='all' />
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Blue Comet Seafoods</title>
 <!-- InstanceEndEditable -->
@@ -20,54 +20,42 @@
 
 <body>
 
-
 	<div class="container"> 
-
+    
+        <div class="row navbar-contact">    
+           <a href="https://www.instagram.com/bluecometseafoods/" title="instagram" target="_blank"><img src="images/insta.png" height="25"></a>
+           <a href="https://twitter.com/BlueCometSea/" title="twitter" target="_blank"><img src="images/twitter.png" height="25"></a>
+           <a href="contact_us.html" title="contact us"><img src="images/contact.png" height="25"></a>
+        </div>
 
 
         <nav class="navbar navbar-my">
-        
-            <div id="twitter">
-               <a href="https://www.instagram.com/bluecometseafoods/" title="instagram" target="_blank"><img src="images/insta.png" height="55"></a>                       
-               <a href="https://twitter.com/BlueCometSea/" title="twitter" target="_blank"><img src="images/twitter.png" height="55"></a>
- 
-            </div>        
-        
-            <div class="navbar-header">
-                <a class="navbar-brand hidden-homepage" href="index.html"><img src="images/blue_comet_seafoods_logo.png" width="250"></a>
-            </div> 
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/blue_comet_seafoods_logo.png" height="104"></a>
+            </div>           
          	 <ul class="nav navbar-nav">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="about_us.html">ABOUT</a></li>
                 <li><a href="products.html">PRODUCTS</a></li>
                 <li><a href="csf.html">CSF</a></li>                
-                <li><a href="gallery.html">GALLERY</a></li>
+<!--                <li><a href="../gallery.html">GALLERY</a></li>-->
                 <li><a href="locations.html">LOCATIONS</a></li>
                 <li><a href="partners.html">PARTNERS</a></li>                
-                <li><a href="contact_us.html">CONTACT US</a></li>
-              </ul>
+                <li><a href="contact_us.html">CONTACT</a></li>
+              </ul>             
         </nav>
         
+        <div class="row site-header">
+        	<!-- InstanceBeginEditable name="PageHeader" -->
 
-            
-    	<div class="row main-content">
-                <!-- InstanceBeginEditable name="Page" -->
-       
-                    <div class="col-xs-9">
-
-
-<!--
-                            <h2>Blue Comet Seafoods is a family run business with over 35 years of fishing experience. We supply wild, local, sustainable fish to our consumers.</h2>
-                            <hr/>
--->
-                            
-                        <div class="main-column nopadding">
-                            <div id="carousel-home-news" class="carousel slide clearfix " data-ride="carousel">
+                            <div id="carousel-home-news" class="carousel slide clearfix row-noheader" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-home-news" data-slide-to="0" class=""></li>
                                     <li data-target="#carousel-home-news" data-slide-to="1" class=""></li>
                                     <li data-target="#carousel-home-news" data-slide-to="2" class=""></li>
+                                    <li data-target="#carousel-home-news" data-slide-to="3" class=""></li>                                    
+                                    <li data-target="#carousel-home-news" data-slide-to="4" class=""></li>                                                                        
                                 </ol>
                                 
                                 <!-- Wrapper for slides -->
@@ -80,7 +68,7 @@
                                       <div class="carousel-caption">
                                          <h2>
                                             <a href="about_us.html">
-                                                Blue Comet Seafoods is a family run business with over 35 years of fishing experience. We supply wild, local, sustainable fish to our consumers.
+                                                Blue Comet Seafoods is a family run business with over 35 years of fishing experience.<br/> We supply wild, local, sustainable fish to our consumers.
                                             </a>
                                          </h2>
                                       </div>
@@ -93,26 +81,30 @@
                                       <div class="carousel-caption">
                                          <h2>
                                             <a href="https://www.youtube.com/watch?v=yVP3Y8ohvv4" target="_blank">
-                                                A brief interview with Sasha Berger, the co-owner and one <br/>of the fishermen for Blue Comet Seafoods.
+                                                A brief interview with Sasha Berger, the co-owner and <br/>one of the fishermen for Blue Comet Seafoods.
                                             </a>
                                          </h2>
                                       </div>
                                     </div>
-                                    
+
+                                    <div class="item">
+                                      <a href="products.html">
+                                          <img src="images/products_home.jpg" alt="products" class="center-block">
+                                      </a>
+                                    </div>                                    
+
                                     <div class="item">
                                       <a href="http://usa.oceana.org/publications/reports/oceana-reveals-mislabeling-americas-favorite-fish-salmon" target="_blank">
                                           <img src="images/oceana_home.png" alt="Oceana Reveals Mislabeling of America's Favorite Fish: Salmon" class="center-block">
-                                      </a>
-                                     <!-- <div class="carousel-caption">
-                                         <h2>
-                                            <a href="http://usa.oceana.org/publications/reports/oceana-reveals-mislabeling-americas-favorite-fish-salmon" target="_blank">
-                                                Oceana Reveals Mislabeling of America's Favorite Fish: Salmon.
-                                            </a>
-                                         </h2>
-                                      </div>-->
+                                      </a>  
+                                    </div>
+
+                                    <div class="item">
+                                      <a href="locations.html">
+                                          <img src="images/fish_home.jpg" alt="Locations" class="center-block">
+                                      </a>  
                                     </div>
                                     
-
                                     
                                 </div>
                                 
@@ -126,12 +118,48 @@
         	                        <span class="sr-only">Next</span>
                                 </a>
                             </div>
-                            
-                        </div>
 
-                       					
-                                                       
-                        <div class="row">                        
+			<!-- InstanceEndEditable -->    
+        </div>
+
+            
+    	<div class="row main-content">
+                <!-- InstanceBeginEditable name="Page" -->
+       
+          		<div class="col-xs-12">
+					<div class="main-column"> 
+
+<p style="font-size:15px;">Blue Comet Seafoods is a family run business with skippers Tony and Sasha. Tony has fished for over 35 years and is still gillnetting aboard his freezer boat the “Blue Comet”. Sasha has been fishing for over 23 years and presently fishes aboard his boat the “Sleepless Nights”, a 40 ft gillnetter. The Pacific Shadow, a North Coast wood troller also fishes salmon, cod and tuna. </p>
+
+<p style="font-size:15px;">Our salmon is harvested along the British Columbia coast from the Haida Gwaii, Nass, Skeena and Bella Coola areas as well as Johnstone Straight, and Barkley Sound. We harvest wild sustainable seafood, dress and flash freeze our fish at sea, ensuring a premium quality product. We have been marketing our salmon for over 13 years at the Steveston Fisherman’s Wharf and for over 9 years at the Vancouver Farmer’s Markets.</p>
+					</div>
+		      </div>	                   					
+
+      
+      <div class="clear"></div><br/>        
+             
+					<div class="col-xs-3">
+							<a href="https://twitter.com/BlueCometSea/" target="_blank"><img src="images/gallery/thumbs/4.jpg" class="img_left_gallery" width="218"></a>
+							<a href="https://twitter.com/BlueCometSea/" target="_blank"><h2 class="home_sub">Follow us on Twitter</h2></a>                         
+                     </div>  
+					<div class="col-xs-3">
+							<a href="https://www.instagram.com/bluecometseafoods/" target="_blank"><img src="images/gallery/thumbs/2.jpg" class="img_left_gallery" width="218"></a>
+							<a href="https://www.instagram.com/bluecometseafoods/" target="_blank"><h2 class="home_sub">We're on Instagram</h2></a>                         
+                     </div>  
+					<div class="col-xs-3">
+							<a href="products.html"><img src="images/gallery/thumbs/9.jpg" class="img_left_gallery" width="218"></a>
+							<a href="products.html"><h2 class="home_sub">Our products</h2></a>                         
+                     </div>  
+					<div class="col-xs-3">
+							<a href="locations.html"><img src="images/gallery/thumbs/57.jpg" class="img_left_gallery" width="218"></a>
+							<a href="locations.html"><h2 class="home_sub">Our summer locations</h2></a>                         
+                     </div>  
+                     
+        
+
+
+                                                      
+<!--                        <div class="row">                        
                             <div class="col-xs-6">
                                <div class="main-column" style="height:450px;">		
 									<a href="products.html"><img src="images/cans_home.jpg" width="320"></a>
@@ -146,109 +174,33 @@
                                <div class="main-column"  style="height:450px;">		
 									<a href="locations.html"><img src="images/summer_markets.png" width="320"></a>
 									<a href="locations.html"><h1>Our summer locations:</h1></a>
-    	                        	
-     
-					<p>&#8226; <a href="http://eatlocal.org/markets/trout-lake/" target="_blank">Trout Lake Farmer’s Market</a></p>
-                     
-                    <p>&#8226; <a href="http://eatlocal.org/markets/kitsilano/" target="_blank">Kitsilano Farmer’s Market</a></p>
-                     
-                    <p>&#8226; <a href="http://eatlocal.org/markets/west-end/" target="_blank">West End Farmer’s Market</a></p>
-                   
-                   <p>&#8226; <a href="http://eatlocal.org/markets/mt-pleasant/" target="_blank">Mount Pleasant Farmer’s Market </a></p>
-                   
-                    <p>&#8226; <a href="http://eatlocal.org/markets/main-st-station/" target="_blank">Main Street  Farmers’ Market</a></p>
-                   
-                    <p>&#8226; <a href="http://eatlocal.org/markets/yaletown/" target="_blank">Yaletown Farmers Market</a></p> 				
-     
-                    <p>&#8226; <a href="http://langleycommunityfarmersmarket.com/" target="_blank">Langley Community Farmers Market</a>	</p> 			
-
-
-
+					<p>&#8226; <a href="http://eatlocal.org/markets/trout-lake/" target="_blank">Trout Lake Farmer’s Market</a><br/>                     
+                       &#8226; <a href="http://eatlocal.org/markets/kitsilano/" target="_blank">Kitsilano Farmer’s Market</a><br/>                     
+                       &#8226; <a href="http://eatlocal.org/markets/west-end/" target="_blank">West End Farmer’s Market</a><br/>                   
+                       &#8226; <a href="http://eatlocal.org/markets/mt-pleasant/" target="_blank">Mount Pleasant Farmer’s Market </a><br/>                   
+                       &#8226; <a href="http://eatlocal.org/markets/main-st-station/" target="_blank">Main Street  Farmers’ Market</a><br/>                   
+                       &#8226; <a href="http://eatlocal.org/markets/yaletown/" target="_blank">Yaletown Farmers Market</a><br/> 				     
+                       &#8226; <a href="http://langleycommunityfarmersmarket.com/" target="_blank">Langley Community Farmers Market</a></p> 			
 
                                </div>
                              </div>
 						</div>
 
-
-<!--                        <div class="main-column">							
-                                                       
-							<div class="row">
-                                <div class="col-xs-6">
-									<a href="products.html"><img src="images/cans_home.jpg" width="320"></a>
-                                </div>
-                                <div class="col-xs-6">
-	                            	<a href="products.html"><h1>Our products</h1></a>
-    	                        	
-                                    <p>All of our products are 100% wild and harvested from the pristine coastal waters of British Columbia. We provide sustai-nable seafood that is flash frozen at sea ensuring premium quality products. Our products are Ocean Wise&reg; approved.
-                                    </p>                                    
-                                </div>
-                            </div>
-                            <hr/>
-                            
-                          	<div class="row">
-                                <div class="col-xs-6">
-									<a href="locations.html"><img src="images/winter_markets.jpg" width="320"></a>
-                                </div>
-                                <div class="col-xs-6">
-	                            	<a href="locations.html"><h1>Our winter locations:</h1></a>
-    	                        	
-                                    <p>&#8226; <b> Nat Bailey Farmers Market</b><br> 
-                                    <i>Every Saturday, from Nov 7, 2015 to April 23, 2016</i></p>
-                                    
-                                    <p>&#8226; <b>Hastings Park Farmers Market</b><br/> 
-                                    <i>Every Sunday, from Nov 8, 2015 to May 1, 2016</i></p>
-                                </div>
-                            </div>         
-                            <hr/>
-                            
-							<div class="row">
-                                <div class="col-xs-6">
-									<iframe width="320" height="180" src="https://www.youtube.com/embed/fytKxNuWZD0" frameborder="0" allowfullscreen></iframe>
-                                </div>
-                                <div class="col-xs-6">
-	                            	<a href="https://www.youtube.com/watch?v=yVP3Y8ohvv4" target="_blank"><h1>Interview with Sasha Berger</h1></a>
-    	                        	<p>A brief interview with Sasha Berger, the co-owner and one of the fishermen for Blue Comet Seafoods. Sasha discusses with us the family business, the importance of eating local, the dangers of farmed salmon and the benefit of shopping at a farmer's market.</p>
-                                </div>
-                            </div>                            
-                            <hr/>
-                            
-							<div class="row">
-                                <div class="col-xs-6">
-									<a href="http://usa.oceana.org/publications/reports/oceana-reveals-mislabeling-americas-favorite-fish-salmon" target="_blank"><img src="images/oceana.jpg" width="320"></a>
-                                </div>
-                                <div class="col-xs-6">
-	                            	<a href="http://usa.oceana.org/publications/reports/oceana-reveals-mislabeling-americas-favorite-fish-salmon" target="_blank"><h1>Oceana Reveals Mislabeling of America's Favorite Fish: Salmon</h1></a>
-    	                        	<p>Oceana collected 82 salmon samples and found that 43 percent were mislabeled. DNA testing confirmed that most of the mislabeling (69 percent) consisted of farmed Atlantic salmon being sold as wild-caught product.</p>
-                                </div>
-                            </div>
-                            
-                         </div>                         
- -->
- 
-                    </div>		
-            
-                   
-                    
                     <div class="col-xs-3">
                             <div class="right-column">
-                       			<a class="twitter-timeline" height="800" data-chrome="nofooter" href="https://twitter.com/BlueCometSea" data-widget-id="679116170339999744">Tweets by @BlueCometSea</a>
+                       			<a class="twitter-timeline" height="400" data-chrome="nofooter" href="https://twitter.com/BlueCometSea" data-widget-id="679116170339999744">Tweets by @BlueCometSea</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 
                         	</div>
-                    </div>
-                    
+                    </div>-->
+                                
 	
 	<!-- InstanceEndEditable -->    
     	</div>    
 
         <div class="row footer">
-            <div class="text-center col-md-6 col-md-offset-3">
-              <p>&copy; 2016 Blue Comet Seafoods<br/>
-<!--                 Developed by <a href="http://www.ermakova.ca/" target="_blank">ermakova.ca</a>-->
-               </p>
-            </div>
+			   © 2016 Blue Comet Seafoods              
         </div>
-
     </div>
 
 	<script src="scripts/jquery-1.11.2.min.js"></script>
